@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA5B383B1B6B215E002EA399 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DA5B383A1B6B215E002EA399 /* bg.png */; };
 		DA88D8BB1B686D1500CECE0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88D8BA1B686D1500CECE0A /* main.m */; };
 		DA88D8BE1B686D1500CECE0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88D8BD1B686D1500CECE0A /* AppDelegate.m */; };
 		DA88D8C11B686D1500CECE0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88D8C01B686D1500CECE0A /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		DA88D8C61B686D1500CECE0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA88D8C51B686D1500CECE0A /* Images.xcassets */; };
 		DA88D8C91B686D1500CECE0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA88D8C71B686D1500CECE0A /* LaunchScreen.xib */; };
 		DA88D8D51B686D1500CECE0A /* BlurEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88D8D41B686D1500CECE0A /* BlurEffectTests.m */; };
-		DA88D8DF1B686DB700CECE0A /* 选择经纪人_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA88D8DE1B686DB700CECE0A /* 选择经纪人_1.jpg */; };
 		DA88D8E11B68A07E00CECE0A /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = DA88D8E01B68A07E00CECE0A /* mask.png */; };
 		DA88D8E41B68AD9000CECE0A /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88D8E31B68AD9000CECE0A /* UIImageEffects.m */; };
 		DA88D8E71B68B29100CECE0A /* NetConnectErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88D8E61B68B29100CECE0A /* NetConnectErrorView.m */; };
@@ -51,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DA5B383A1B6B215E002EA399 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		DA88D8B51B686D1500CECE0A /* BlurEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA88D8B91B686D1500CECE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA88D8BA1B686D1500CECE0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		DA88D8CE1B686D1500CECE0A /* BlurEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA88D8D31B686D1500CECE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA88D8D41B686D1500CECE0A /* BlurEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurEffectTests.m; sourceTree = "<group>"; };
-		DA88D8DE1B686DB700CECE0A /* 选择经纪人_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选择经纪人_1.jpg"; sourceTree = "<group>"; };
 		DA88D8E01B68A07E00CECE0A /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
 		DA88D8E21B68AD9000CECE0A /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
 		DA88D8E31B68AD9000CECE0A /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 				DA88D8B71B686D1500CECE0A /* BlurEffect */,
 				DA88D8D11B686D1500CECE0A /* BlurEffectTests */,
 				DA88D8B61B686D1500CECE0A /* Products */,
-				DA88D8DE1B686DB700CECE0A /* 选择经纪人_1.jpg */,
+				DA5B383A1B6B215E002EA399 /* bg.png */,
 				DA88D8E01B68A07E00CECE0A /* mask.png */,
 			);
 			sourceTree = "<group>";
@@ -254,6 +254,7 @@
 			files = (
 				DA88D8EF1B68BB2600CECE0A /* NetErrorWhiteBgView@3x.png in Resources */,
 				DA88D8C41B686D1500CECE0A /* Main.storyboard in Resources */,
+				DA5B383B1B6B215E002EA399 /* bg.png in Resources */,
 				DA88D8E11B68A07E00CECE0A /* mask.png in Resources */,
 				DA88D8F21B68BB9C00CECE0A /* NetErrorCancel@2x.png in Resources */,
 				DA88D8FB1B68DBEB00CECE0A /* ErrorWarning@3x.png in Resources */,
@@ -263,7 +264,6 @@
 				DA88D8EE1B68BB2600CECE0A /* NetErrorWhiteBgView@2x.png in Resources */,
 				DA88D8FA1B68DBEB00CECE0A /* ErrorWarning@2x.png in Resources */,
 				DA88D8C61B686D1500CECE0A /* Images.xcassets in Resources */,
-				DA88D8DF1B686DB700CECE0A /* 选择经纪人_1.jpg in Resources */,
 				DA88D8F61B68D0A100CECE0A /* NetError@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
