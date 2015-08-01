@@ -60,6 +60,39 @@
     return [self imageByApplyingBlurToImage:inputImage withRadius:20 tintColor:effectColor saturationDeltaFactor:-1.0 maskImage:nil];
 }
 
+#pragma mark - 
+#pragma mark - current screen
++ (UIImage *)capture
+{
+    UIGraphicsBeginImageContextWithOptions([[UIScreen mainScreen] bounds].size, NO, 0);
+    [[[UIApplication sharedApplication] keyWindow] drawViewHierarchyInRect:[UIScreen mainScreen].bounds afterScreenUpdates:NO];
+    UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return img;
+}
+
++ (UIImage*)currentImageByApplyingLightEffectToImage
+{
+    return [self imageByApplyingLightEffectToImage:[self capture]];
+}
+
++ (UIImage*)currentImageByApplyingExtraLightEffectToImage
+{
+    return [self imageByApplyingExtraLightEffectToImage:[self capture]];
+}
+
++ (UIImage*)currentImageByApplyingDarkEffectToImage
+{
+    return [self imageByApplyingDarkEffectToImage:[self capture]];
+}
+
++ (UIImage*)currentImageByApplyingTintEffectWithColor:(UIColor *)tintColor
+{
+
+   return [self imageByApplyingTintEffectWithColor:tintColor toImage:[self capture]];
+}
+
 #pragma mark -
 #pragma mark - Implementation
 

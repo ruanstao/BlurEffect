@@ -10,11 +10,28 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImageEffects : NSObject
-
+/**
+ *  对传入图片做毛玻璃效果
+ *
+ *  @param inputImage 正常图片
+ *
+ *  @return 毛玻璃效果图片
+ */
 + (UIImage*)imageByApplyingLightEffectToImage:(UIImage*)inputImage;
 + (UIImage*)imageByApplyingExtraLightEffectToImage:(UIImage*)inputImage;
 + (UIImage*)imageByApplyingDarkEffectToImage:(UIImage*)inputImage;
 + (UIImage*)imageByApplyingTintEffectWithColor:(UIColor *)tintColor toImage:(UIImage*)inputImage;
+
+/**
+ *  对当前所显示内容做毛玻璃效果
+ *
+ *  @return 毛玻璃效果图片
+ */
++ (UIImage*)currentImageByApplyingLightEffectToImage;
++ (UIImage*)currentImageByApplyingExtraLightEffectToImage;
++ (UIImage*)currentImageByApplyingDarkEffectToImage;
++ (UIImage*)currentImageByApplyingTintEffectWithColor:(UIColor *)tintColor;
+
 
 //| ----------------------------------------------------------------------------
 //! Applies a blur, tint color, and saturation adjustment to @a inputImage,
